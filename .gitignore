@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.env.bak
+.envrc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Pylint / mypy / pyright
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pyright/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and models
+models/*.pkl
+models/*.joblib
+models/*.bin
+models/*.sav
+
+# Keep the models directory but ignore its contents except a placeholder
+models/*
+!models/.gitkeep
+
+# Local datasets (keep tracked sample only)
+!data/spam_ham_dataset.csv
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+
